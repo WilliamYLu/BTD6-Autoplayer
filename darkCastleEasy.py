@@ -8,7 +8,7 @@ def mouse_action(x,y,time_sleep=.5):
 	mouse.click(button='left')
 	time.sleep(time_sleep)
 while True:
-	#GET TO MAIN MENU IN 5 SECONDS
+	#GET TO MAIN MENU WITHIN 5 SECONDS OF STARTING
 	time.sleep(5)
 	#Menuing
 	#Play
