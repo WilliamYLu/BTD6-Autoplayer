@@ -2,7 +2,7 @@ import mouse
 import keyboard
 import time
 print(mouse.get_position())
-#Preselect Quincy as hero, MK not required. Places a 204 SUB and 042 mauler
+#Preselect Quincy as hero, MK not required. Places a 204 SUB and 042 mauler, will leak a bit at the end but won't die ever.
 def mouse_action(x,y,time_sleep=.5):
 	mouse.move(x, y, absolute=True, duration=0)
 	mouse.click(button='left')
